@@ -63,7 +63,7 @@ export default function Home() {
                         </div>
                      </Link>
 
-                     <Link href="/" className={st.WhiteBtn}>
+                     <Link href="https://qrblock.gitbook.io/qrblock/" className={st.WhiteBtn}>
                         <span className={`${fontArchivoSemiBold.className}`}>What is QRBlock?</span>
                         <div className={stArrow.SmallOrangeArrowBox}>
                            <div className={stArrow.SmallOrangeLongArrowRight}></div>
