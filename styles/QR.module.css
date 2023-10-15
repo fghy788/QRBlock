@@ -1,0 +1,98 @@
+.main {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.QRBox {
+   background-color: #111111;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   width: 500px;
+   height: 500px;
+   border-radius: 5px;
+   position: relative;
+   box-shadow: 0px 0px 10px 2px #ff4f2f;
+}
+
+.MYQRBox {
+   background-color: #111111;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   width: 300px;
+   height: 500px;
+   border-radius: 5px;
+   position: relative;
+   box-shadow: 0px 0px 10px 2px #ff4f2f;
+}
+
+.QRTitle {
+   font-size: 32px;
+   color: #ff4f2f;
+   text-align: center;
+}
+.QRLink {
+   background-color: #ff4f2f;
+   text-decoration: none;
+   color: #111111;
+   width: 150px;
+   height: 50px;
+   display: grid;
+   place-items: center;
+   border-radius: 5px;
+}
+.QRLink:hover {
+   transform: scale(1.05);
+   cursor: pointer;
+}
+
+.QRCloseBtn {
+   border: 0px;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   font-size: 10px;
+   background-color: #ff4f2f;
+}
+.QRCloseBtn:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.QRShopTitle {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   color: #ff4f2f;
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.QRShopLink {
+   display: flex;
+   gap: 10px;
+}
+
+.QRShopLinkText {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   color: white;
+}
+
+.QRShopLinkText:hover {
+   cursor: pointer;
+}

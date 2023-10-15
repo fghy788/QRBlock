@@ -1,0 +1,206 @@
+.solInputBox {
+   display: grid;
+   grid-template-columns: 50px auto;
+   align-items: center;
+   margin: 0px 15vw;
+   gap: 10px;
+   box-sizing: border-box;
+}
+
+.solLOGO {
+   width: 50px;
+   height: 50px;
+   display: grid;
+   place-items: center;
+   border-radius: 50%;
+   border: 1px solid white;
+}
+
+.solInput {
+   box-sizing: border-box;
+   max-width: 300px;
+   width: 100%;
+   height: 45px;
+   border-radius: 5px;
+}
+
+.solInput:focus {
+   outline: none;
+}
+.NFTLOGO {
+   width: 50px;
+   height: 50px;
+   display: grid;
+   place-items: center;
+   border-radius: 50%;
+   border: 1px solid white;
+   color: white;
+}
+.NFTTitleBox {
+   box-sizing: border-box;
+   padding-left: 30px;
+   width: 100%;
+   height: 45px;
+   background-color: #ff4f2f;
+   color: white;
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+}
+
+.NFTBox {
+   padding: 30px 10px;
+   margin-top: 30px;
+   margin: 30px 15vw;
+   border: 1px solid #ff4f2f;
+   border-radius: 5px;
+   box-sizing: border-box;
+   width: 70%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+
+   height: 45vh;
+   overflow: scroll;
+   overflow-x: hidden;
+   color: white;
+}
+.NFTBox::-webkit-scrollbar {
+   background-color: inherit;
+}
+
+.NFTBox::-webkit-scrollbar-thumb {
+   background-color: #ff4f2f;
+   border-radius: 10px;
+}
+.NFT {
+   width: 110px;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   border: 5px solid white;
+   border-radius: 5px;
+   display: grid;
+   grid-template-rows: 100px, 30px;
+   color: white;
+}
+
+.NFTBtn {
+   border: 0px;
+   width: 100%;
+   height: 30px;
+   background-color: #111111;
+   color: white;
+}
+
+.NFTBtn:hover {
+   cursor: pointer;
+   background-color: rgb(255, 79, 47, 0.2);
+}
+
+.InputBtnBox {
+   margin: 0px 15vw;
+}
+
+.GenerateBtn {
+   width: 300px;
+   height: 50px;
+}
+
+.PopupBack {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.PasswordPopup {
+   width: 40%;
+   max-width: 800px;
+   min-width: 600px;
+   display: grid;
+   grid-template-columns: 1.5fr 3fr;
+   place-items: center;
+   background-color: #ff4f2f;
+   border-radius: 5px;
+   position: relative;
+   box-shadow: 0px 0px 10px 2px #ff4f2f;
+}
+
+.PasswordContent {
+   display: grid;
+   grid-template-rows: 140px 55px 55px 140px;
+   place-items: center;
+   background-color: #111111;
+   width: 100%;
+   height: 400px;
+   border-radius: 0px 5px 5px 0px;
+}
+
+.PasswordInput {
+   width: 80%;
+   height: 80%;
+   font-size: 24px;
+}
+.PasswordInput:focus {
+   outline: none;
+}
+.PasswordBtn {
+   width: 40%;
+   height: 40px;
+   background-color: #ff4f2f;
+   border: 0px;
+   border-radius: 5px;
+   color: white;
+}
+.PasswordBtn:hover {
+   cursor: pointer;
+}
+
+.PasswordTitle {
+   font-size: 48px;
+   text-align: center;
+   color: #ff4f2f;
+}
+
+.PasswordText {
+   font-size: 18px;
+   text-align: center;
+   color: #ff4f2f;
+}
+
+.PasswordCloseBtn {
+   border: 0px;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   font-size: 10px;
+   background-color: #ff4f2f;
+}
+.PasswordCloseBtn:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+   .PasswordQRCode {
+      display: none;
+   }
+   .PasswordPopup {
+      width: 80%;
+      max-width: 800px;
+      min-width: 300px;
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+      border-radius: 5px;
+   }
+}

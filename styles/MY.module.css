@@ -1,0 +1,26 @@
+.MYBOX {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0px 15vw;
+   margin-top: 50px;
+   justify-content: center;
+   gap: 40px;
+}
+.MYBLOCK {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.MYLink {
+   margin-top: 10px;
+   color: #ff4f2f;
+   font-size: 24px;
+}
+.Back {
+   background-color: #111111;
+   background-image: url("/background.png");
+   background-size: contain;
+   background-repeat: repeat;
+}
