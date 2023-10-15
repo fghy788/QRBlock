@@ -1,7 +1,7 @@
 .main {
    background-color: #111111;
    background-image: url("/background.png");
-   background-size: contain;
+   background-size: cover;
    background-repeat: repeat;
 }
 
@@ -111,7 +111,7 @@
 }
 .OrangeBtn {
    box-sizing: border-box;
-   padding: 10px 0px;
+   padding: 10px 5px;
    border: 0px;
    width: 100px;
    height: 100px;
@@ -120,6 +120,7 @@
    justify-content: space-between;
    align-items: center;
    flex-direction: column;
+   text-decoration: none;
    gap: 10px;
    color: #deeff2;
    font-size: 14px;
@@ -127,13 +128,14 @@
 
 .WhiteBtn {
    box-sizing: border-box;
-   padding: 10px 0px;
+   padding: 10px 5px;
    border: 0px;
    width: 100px;
    height: 100px;
    background-color: #deeff2;
    display: flex;
    justify-content: space-between;
+   text-decoration: none;
    align-items: center;
    flex-direction: column;
    gap: 10px;

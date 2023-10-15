@@ -21,6 +21,6 @@
 .Back {
    background-color: #111111;
    background-image: url("/background.png");
-   background-size: contain;
+   background-size: cover;
    background-repeat: repeat;
 }
