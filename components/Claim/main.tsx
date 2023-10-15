@@ -334,7 +334,7 @@ const ClaimMain = () => {
                      ></input>
                      <input
                         className={`${stInputBox.PasswordInput} ${fontArchivoBoldItalic.className}`}
-                        placeholder="Solana Publickey"
+                        placeholder="Receive Wallet or NameService"
                         onChange={(event: any) => setToPubkey(event.target.value)}
                      ></input>
                      <button className={`${stInputBox.PasswordBtn} ${fontArchivoBoldItalic.className}`} onClick={callTransferTx}>
